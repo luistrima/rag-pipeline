@@ -46,7 +46,7 @@ El modelo se ejecuta localmente, lo que ofrece:
 ### Pasos para Ejecutar
 1. **Clonar y Acceder:**
 ```bash
-git clone [https://github.com/tu-usuario/rag-pipeline.git](https://github.com/tu-usuario/rag-pipeline.git)
+git clone [https://github.com/luistrima/rag-pipeline](https://github.com/luistrima/rag-pipelinet)
 cd rag-pipeline
 ```
 2. **Levantar Infraestructura:**
