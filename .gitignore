@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# --- Environment / Secrets ---
+.env
+.flaskenv
+*.secret
+
+# --- Machine Learning & Data ---
+# No subimos el modelo descargado (se descarga al ejecutar)
+models/
+# No subimos el dataset local si es muy pesado
+data/*.txt
+data/*.json
+data/*.csv
+# Ignorar archivos de checkpoints de HuggingFace
+.cache/
+
+# --- Database / Docker ---
+# Los datos de Postgres se quedan en el volumen de Docker, no en el repo
+postgres_data/
+*.sql.gz
+*.log
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Streamlit ---
+.streamlit/config.toml
